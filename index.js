@@ -110,7 +110,7 @@ function getInstalledVersions(){
 function getTargetVersions(){
     var targetModule = target === "config" ? config : remote;
     targetModule.check({
-        plugins: plugins, 
+        plugins: plugins,
         onFinish: displayResults,
         pluginCount: pluginCount,
         unconstrainVersions: unconstrainVersions,
@@ -289,7 +289,8 @@ function getPluginSnippet(id, source, installedVersion, targetVersion, error){
         snippet += "\nerror: "+error;
     }
     snippet += "\n";
-    return snippet;
+    //return snippet;
+    return "";
 }
 
 
