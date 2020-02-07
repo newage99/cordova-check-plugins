@@ -82,6 +82,8 @@
     "worker"        : false,    // Web Workers
     "wsh"           : false,    // Windows Scripting Host
     "yui"           : false,    // Yahoo User Interface
+    "window"        : true,
+    "alert"         : true,
 
     // Custom Globals
     "globals"       : {}        // additional predefined global variables
